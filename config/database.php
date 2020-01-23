@@ -49,6 +49,7 @@ return [
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
+            'pconnect' => 'TRUE',
             'strict' => false,
             'engine' => 'InnoDB',
         ],
@@ -63,6 +64,7 @@ return [
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
+            'pconnect' => 'TRUE',
             'sslmode' => 'prefer',
         ],
 
