@@ -80,7 +80,7 @@
             "@php artisan package:discover"
         ],
         "compile": [
-            "chmod -R 777 var/",
+            "chmod -R /var/www/",
             "chmod 755 etc/",
             "chmod 644 etc/config.php"
         ]
