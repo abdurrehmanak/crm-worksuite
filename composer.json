@@ -80,7 +80,7 @@
             "@php artisan package:discover"
         ],
         "compile": [
-            "chmod -R /var/www/",
+            "chmod -R /var/www/crm-akdesigner/storage/app/",
             "chmod 755 etc/",
             "chmod 644 etc/config.php"
         ]
